@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .header {
+    background-color: #ff6502;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image {
+    border: 1px solid #ffffff;
+    margin: 4px 4px;
+  }
+  .upvote {
+    width: 10px;
+    margin: 0 8px;
+  }
+  .cursor{
+    cursor: pointer;
+  
+  }
+  .more{
+    padding: 2% 30%;
+    color: #ff6502;
+    cursor: pointer;
+  }
+  .commonLink {
+    color: #000;
+    margin: 0 12px;
+    text-decoration: none;
+  }
+  .activeLink {
+    color: #fff;
+  }
+  .separator {
+    border-left: 1px solid #000;
+    height: 12px;
+  }
+  .rowcontainer {
+    display: flex;
+    align-items: center;
+    background-color: #f6f6ef;
+  }
+  
+  .rowcontainer > div {
+    margin: 0 12px;
+  }
+  
+  .rowcontainer:nth-child(even) {
+    background: #e8e8e8;
+  }
+  .numbers {
+    width: 6%;
+    display: flex;
+    justify-content: center;
+  
+  }
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4px 8px;
+  }
+  .linkWrapper{
+    background: #f6f6ef;
+    padding: 12px 0;
+  }
+  
+  .url {
+    font-size: 10px;
+    color: #828282;
+    margin: 0 4px;
+  }
+  .author{
+    color:#777575;
+  }
+  .hide {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: #828282;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .mainContainer {
+      margin: 0 8%;
+    }
+    .more{
+      padding: 1% 17%;
+    }
+    .graph{
+        width:80%;
+    }
+  }
